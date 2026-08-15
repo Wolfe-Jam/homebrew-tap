@@ -1,24 +1,24 @@
 class BunSticky < Formula
   desc "Fastest bun under the sum — Zig-native FAF (.faf) context CLI"
   homepage "https://github.com/Wolfe-Jam/bun-sticky-zig"
-  version "1.4.0"
+  version "1.4.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Wolfe-Jam/bun-sticky-zig/releases/download/v1.4.0/faf-macos-arm64"
-      sha256 "ab77753a4ac0a92f1fd96d4b2e7e47246dcdff1c8e59ebf9c2d5527a2178186c"
+      url "https://github.com/Wolfe-Jam/bun-sticky-zig/releases/download/v1.4.2/faf-macos-arm64"
+      sha256 "5ce3430ae28048a527703cba166bb6c177e7e56a32ad6901e283cef8e7cefc16"
     end
     on_intel do
-      url "https://github.com/Wolfe-Jam/bun-sticky-zig/releases/download/v1.4.0/faf-macos-x64"
-      sha256 "0ed70dff679216737466f1838695cd8eb344600f058232b605c017341bbcbb41"
+      url "https://github.com/Wolfe-Jam/bun-sticky-zig/releases/download/v1.4.2/faf-macos-x64"
+      sha256 "a0318b60f3c982503dc6fe9804572754a7b9c402a5e7c53c44cebf50fbc140b0"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Wolfe-Jam/bun-sticky-zig/releases/download/v1.4.0/faf-linux-x64"
-      sha256 "1d082aa6e9ec625cf49c3ffc3bb341056de1c536b425cda56fc7da28fef5cb34"
+      url "https://github.com/Wolfe-Jam/bun-sticky-zig/releases/download/v1.4.2/faf-linux-x64"
+      sha256 "516b365d85f865a521e45918fd125179a8c4930092cf4da50d91e489fee75c8b"
     end
   end
 
@@ -27,6 +27,6 @@ class BunSticky < Formula
   end
 
   test do
-    assert_match "1.4.0", shell_output("#{bin}/faf version")
+    assert_match "1.4.2", shell_output("#{bin}/faf version")
   end
 end
