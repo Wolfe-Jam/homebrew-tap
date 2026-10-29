@@ -8,7 +8,7 @@ brew install wolfe-jam/tap/bun-sticky
 
 - **[bun-sticky](https://github.com/Wolfe-Jam/bun-sticky-zig)** — Zig-native FAF (`.faf`) context CLI. *Fastest bun under the sum.* Zero dependencies, tiny native binary, sub-ms. `faf score` / `--json` / `--badge` / `--min`.
 
-⭐ Bookmarks it for you, helps other devs find it too.
+⭐ [Star it on GitHub](https://github.com/Wolfe-Jam/homebrew-tap): bookmarks it for you, helps other devs find it too.
 
 ---
 
